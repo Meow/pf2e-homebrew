@@ -1,0 +1,66 @@
+{
+  "id": "nighty-homebrew",
+  "title": "Nighty's Pathfinder Homebrew",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Just some stupid homebrew that can be shared across campaigns.</p>",
+  "authors": [
+    {
+      "name": "Nighty",
+      "email": "luna@nighty.cloud",
+      "url": "https://nighty.cloud",
+      "discord": "nightycloud",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "nighty-stuff",
+      "label": "Nighty's Stuff",
+      "path": "packs/nighty-stuff",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "nighty-rollables",
+      "label": "Nighty's Rollable Tables",
+      "path": "packs/nighty-rollables",
+      "type": "RollTable",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "nighty-actors",
+      "label": "Nighty's Actors",
+      "path": "packs/nighty-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/Meow/pf2e-homebrew",
+  "manifest": "https://raw.githubusercontent.com/Meow/pf2e-homebrew/main/module.json",
+  "download": "https://github.com/Meow/pf2e-homebrew/archive/refs/tags/1.0.0.zip"
+}
